@@ -2,16 +2,7 @@ import re
 import sys
 
 def find_word_occurrences(file_path, pattern):
-    """
-    Find occurrences of words matching the given pattern in a file.
 
-    Args:
-        file_path (str): Path to the input file.
-        pattern (str): Regular expression pattern for matching words.
-
-    Returns:
-        list: A list of tuples containing the line number and matched word.
-    """
     occurrences = []
     
     with open(file_path, 'r') as input_file:
